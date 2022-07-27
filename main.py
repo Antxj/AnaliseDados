@@ -37,21 +37,21 @@ print(tabela.columns)
 for coluna in tabela.columns:
     grafico = px.histogram(tabela, x=coluna, color="Churn", text_auto=True)
     grafico.write_image(f"graphs/{coluna}.png")  # Salva os gráficos em .png
-    grafico.write_image(f"graphs/{coluna}.html")  # Salva os gráficos em .html
+    #grafico.write_image(f"graphs/{coluna}.html")  # Salva os gráficos em .html
     #grafico.show()
 
 # Passo 4 - Conclusões
 
 conclusao = """
 
-1- Clientes novos estão cancelando muito.
+1- Clientes novos estão cancelando MUITO.
  - Pode ser alguma promoção inicial que termina logo em seguida.
- - Primeira experiência do serviço está ruim.
+ - Primeira experiência do serviço pode estar ruim.
 
 2- Boleto eletrônico tem muito mais cancelamento.
  - Oferecer desconto pagando de outras formas.
  
-3- Clientes com contrato mensal, cancelam muito mais.
+3- Clientes com contrato mensal cancelam muito mais.
  - Oferecer desconto para plano anual.
  
 4- Clientes com menos serviços, cancelam muito mais. 
@@ -63,8 +63,3 @@ conclusao = """
 """
 
 print(conclusao)
-
-
-
-
-
