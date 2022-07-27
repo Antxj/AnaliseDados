@@ -17,4 +17,17 @@ Link Original do Kaggle: https://www.kaggle.com/radmirzosimov/telecom-users-data
 <br>
 
 - Resultado:
->Em produção
+>Gráficos: https://github.com/Antxj/AnaliseDados/tree/main/graphs
+
+><br> 1- Clientes novos estão cancelando MUITO.<br>
+>- Pode ser alguma promoção inicial que termina logo em seguida.<br>
+>- Primeira experiência do serviço pode estar ruim.<br>
+><br>2- Boleto eletrônico tem muito mais cancelamento.<br>
+>- Oferecer desconto pagando de outras formas.<br>
+><br>3- Clientes com contrato mensal cancelam muito mais.<br>
+>- Oferecer desconto para plano anual.<br>
+><br>4- Clientes com menos serviços, cancelam muito mais. <br>
+>- Oferecer serviços extras para manter o cliente.<br>
+><br>5- Clientes com família maior, cancelam menos.<br>
+>- Oferecer uma segunda linha com desconto/free.<br>
+
